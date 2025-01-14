@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="wlcm-banner">
+        <img
+          src="images\neko-cafe.png"
+          alt="Logo"
+          id="logo"
+        />
+      </div>
+      <div class="shop-name">
+        <h1>Neko's Cafe</h1>
+      </div>
+      <br />
+      <div class="nav">
+        <a href="#menu">
+          <button style="margin-right: 50px">Menu</button>
+        </a>
+        <a href="#order">
+          <button>Place Order</button>
+        </a>
+      </div>
+      <div class="menu-container" id="menu">
+        <h2><u>Menu</u></h2>
+        <div class="menu-item">
+          <figure>
+            <img
+              src="https://imgproxy.attic.sh/unsafe/rs:fit:768:768:1:1/t:1:FF00FF:false:false/pngo:false:true:256/aHR0cHM6Ly9hdHRp/Yy5zaC8yemdmZmFt/Mms2NGVhNWo5N25i/bXp3dzNuazh6.png"
+              alt="cake"
+            />
+            <figcaption>
+              <h3>Vinilla Cake</h3>
+              <p>Tasty Sweet Bread filled with vinilla cream.</p>
+            </figcaption>
+            <figcaption class="price">
+              <i><b>200 INR</b></i>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="menu-item">
+          <figure>
+            <img
+              src="https://www.gifcen.com/wp-content/uploads/2023/08/coffee-gif-8.gif"
+              alt="coffee"
+            />
+            <figcaption>
+              <h3>Neko's Coffee</h3>
+              <p>Tasty Sweet and strong coffee with a loving message</p>
+            </figcaption>
+            <figcaption class="price">
+              <i><b>200 INR</b></i>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="menu-item">
+          <figure>
+            <img
+              src="https://clipart-library.com/images/5cRebqMKi.png"
+              alt="cake"
+            />
+            <figcaption>
+              <h3>Croissant</h3>
+              <p>Tasty Sweet Bread filled with Tasty cream.</p>
+            </figcaption>
+            <figcaption class="price">
+              <i><b>200 INR</b></i>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="order-container" id="order">
+        <h2><u>Place Order</u></h2>
+        <h3><u>Add Items</u></h3>
+        <ol>
+          <li>
+            <div class="quantity-selector">
+              <label><b>Vinilla Cake</b></label>
+              <input type="number" class="list-item" min="0" max="10" />
+            </div>
+          </li>
+          <li>
+            <div class="quantity-selector">
+              <label><b>Neko's Coffee</b></label>
+              <input type="number" class="list-item" min="0" max="10" />
+            </div>
+          </li>
+          <li>
+            <div class="quantity-selector">
+              <label><b>Croissant</b></label>
+              <input type="number" class="list-item" min="0" max="10" />
+            </div>
+          </li>
+        </ol>
+        <br />
+        <h3><u>Addons</u></h3>
+        <div class="addons">
+          <ul>
+            <li>
+              <div class="addon-selector">
+                <input type="checkbox" class="addon-list" />
+                <label><b>Honey</b></label>
+              </div>
+            </li>
+            <li>
+              <div class="addon-selector">
+                <input type="checkbox" class="addon-list" />
+                <label><b>Jam</b></label>
+              </div>
+            </li>
+            <li>
+              <div class="addon-selector">
+                <input type="checkbox" class="addon-list" />
+                <label><b>Lemonate</b></label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="submit">
+          <input type="button" value="Place Order" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <p>Made with 💓 by Kunal Gupta</p>
+      </div>
+    </footer>
+  </body>
+</html>
