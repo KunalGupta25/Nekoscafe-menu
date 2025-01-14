@@ -41,8 +41,8 @@ By working on this project, you will learn and revise the following HTML and CSS
 Include screenshots of your web page here:
 
 ![Welcome Banner](https://kunalgupta25.github.io/Nekoscafe-menu/images/menu.png)
-![Menu](images\menu.png)
-![Order Form](images\order.png)
+![Menu](https://kunalgupta25.github.io/Nekoscafe-menu/images/menu.png)
+![Order Form](https://kunalgupta25.github.io/Nekoscafe-menu/images/order.png)
 
 ## Credits
 
